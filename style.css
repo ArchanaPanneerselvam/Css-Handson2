@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;  
+   
+}
+body{
+    background-image: url(./example.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98.5%;
+    height: 1900px;
+    border:10px ridge greenyellow;
+    
+    
+}
+.parent{
+    width: 98%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+.child
+{
+    border: 6px solid red;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-style:italic oblique ;
+    font-family: 'Times New Roman', Times, serif;
+    width: 30%;
+   
+    height:180px;
+}
+.child1{
+    width:30%;
+    height: 140px; 
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.child2{
+    width: 35%;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: -200px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+ 
+}
+
+form{
+   position: relative;
+   border: 5px solid rgb(241, 51, 51);
+   border-style: dashed;
+   background-color: white;
+   width: 400px;
+   left:150px;
+   color:rgb(224,97,97)
+}
+form input{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.circle{
+ position: absolute;
+ height: 350px; 
+ width:350px;
+ top: 400px;
+ margin: 30px;
+ border:6px solid rgba(100, 100, 100, 0.733);
+ background-color: rgb(38, 119, 108);
+ border-radius: 500px;
+ display: flex;
+ justify-content: center;   
+}
+.circle hr{
+    width: 350px;
+}
+.items{
+    position: relative;
+    width: 300px;
+    left: 400px;
+    top: 10px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    font-weight: 900;
+    font-size: larger;
+}
+.box{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+   }
+
+.dis{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 30px;
+    padding-right: 25px;
+    border: 2px solid green;
+    border-radius: 35px;
+    background-color:aqua;
+    color:darkblue;
+    font-size: 19px;  
+} 
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+.dis6{
+    height: 350px;
+}
